@@ -214,10 +214,39 @@
 		Informatiesysteem
 		</h2>
 		<p class= "wit">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget rhoncus turpis. Curabitur non massa ut odio pretium mollis at in magna. Nullam tristique sem ac sem posuere tincidunt. Nunc quis leo nec odio sodales suscipit. Nulla facilisi. Nam interdum dictum lacus. Etiam blandit odio eu lectus mattis varius. Maecenas varius ligula id magna ultricies, in iaculis lacus dignissim. Integer maximus lacus et nunc interdum tempor. Praesent odio elit, venenatis vitae vehicula vel, semper vel mauris. Praesent a nunc iaculis, porta velit vitae, egestas erat. Sed gravida ultrices leo nec ultricies.
+		<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Voornaam</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
+    <label for="lname">Achternaam</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Provincie</label>
+    <select id="country" name="country">
+      <option value="Oost-Vlaanderen">Oost-Vlaanderen</option>
+      <option value="West-Vlaanderen">West-Vlaanderen</option>
+      <option value="Antwerpen">Antwerpen</option>
+      <option value="Limburg">Limburg</option>
+      <option value="Vlaams Brabant">Vlaams-Brabant</option>
+      <option value="Antwerpen">Henegouwen</option>
+      <option value="Luik">Luik</option>
+      <option value="Luxemburg">Luxemburg</option>
+      <option value="Namen">Namen</option>
+      <option value="Waals-Brabant">Waals-Brabant</option>
+      </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+         
+    </div>
+    
 		</p>
-		</div> 
+		
    
   
   <script>
