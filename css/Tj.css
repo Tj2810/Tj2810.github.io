@@ -16,6 +16,82 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+footer{
+    background-color:#e1e1d0;
+    text-align: center;
+}
+.ccolumn {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media (max-width: 650px) {
+  .ccolumn {
+    width: 100%;
+    display: block;
+  }
+}
+
+.ccard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ccontainer {
+  padding: 0 16px;
+}
+
+.ccontainer::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Create two equal columns that floats next to each other */
+.colummmn {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  
+}
+
+/* Clear floats after the columns */
+.rroow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.buttonn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.buttonn:hover {
+  background-color: #555;
+}
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
